@@ -16,6 +16,10 @@ The Fast GAN architecture is a lightweight GAN model that can achieve high-quali
 - LPIPS metric: https://github.com/moono/lpips-tf2.x (based on https://arxiv.org/abs/1801.03924)
 - Differential Augmentation: https://github.com/mit-han-lab/data-efficient-gans
 
+
+## Dataset 
+
+An example dataset with 752 oil paintings by Vincent Van Gogh is provided. 
 ## Training
 
 It takes around 7 hours to train on Google Colab.
