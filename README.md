@@ -1,6 +1,6 @@
 ## Important Note
 
-This code is for a paper that we wrote for a Bachelor course in Uni. This is in no way an efficient an good implemention of FastGAN. Please don't train your models on this, save yourself the hassle and use pytorch instead - much easier. Look at the OG version with which you will get the best results - https://github.com/odegeasslbc/FastGAN-pytorch
+This code is for a paper that we wrote for a Bachelor course at University. This is in no way an efficient nor a good implemention of FastGAN. Please don't train your models on this, save yourself the hassle and use pytorch instead - much easier. Look at the OG version with which you will get the best results - https://github.com/odegeasslbc/FastGAN-pytorch
 
 # Fast GAN Architecture with Additional Decoders in Discriminator
 
