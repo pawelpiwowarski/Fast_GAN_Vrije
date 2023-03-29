@@ -27,3 +27,7 @@ An example dataset with 752 oil paintings by Vincent Van Gogh is provided.
 ## Training
 
 It takes around 7 hours to train on Google Colab.
+
+## Important!
+
+This code is for a paper that we wrote for a Bachelor course in Uni. This is in no way an efficient an good implemention of FastGAN. Please don't train your models on this, save yourself the hassle and use pytorch instead - much easier. Look at the OG version with which you will get the best results - https://github.com/odegeasslbc/FastGAN-pytorch
