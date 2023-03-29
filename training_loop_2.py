@@ -252,7 +252,7 @@ for _ in range(start_epoch, EPOCHS - start_epoch):
     start = time.time()
     for image_batch in tqdm(dataset):
             fastgan.train_step(image_batch)
-    fastgan.generator.save_weights('generator.h5')
+
     print(f'\nTime for epoch is {time.time()-start} sec')
 
     save_generator_img(fastgan.generator, noise_seed, int(fastgan.ckpt.epoch),GENERATOR_OUTPUT)

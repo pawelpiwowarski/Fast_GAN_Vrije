@@ -248,8 +248,15 @@ start_epoch = int(fastgan.ckpt.epoch)
 
 
 
-save_generator_img(fastgan.generator, noise_seed, int(fastgan.ckpt.epoch),GENERATOR_OUTPUT)
-#save_decoder_img(fastgan.discriminator, test_batch, int(fastgan.ckpt.epoch),DISCRIMINATOR_OUTPUT)
+for _ in range(start_epoch, EPOCHS - start_epoch):
+    start = time.time()
+    for image_batch in tqdm(dataset):
+            fastgan.train_step(image_batch)
 
-    #fastgan.save_log()
+    print(f'\nTime for epoch is {time.time()-start} sec')
+
+    save_generator_img(fastgan.generator, noise_seed, int(fastgan.ckpt.epoch),GENERATOR_OUTPUT)
+    save_decoder_img(fastgan.discriminator, test_batch, int(fastgan.ckpt.epoch),DISCRIMINATOR_OUTPUT)
+
+    fastgan.save_log()
 
