@@ -8,7 +8,9 @@
 What works:
 
 - The model trains and generates images of desired quality.
-  What doesn't work:
+
+What doesn't work:
+
 - Saving checkpoints and loading them for some reason tf doesn't like the way we save the model.
 
 [Read our paper to learn more about the project](paperv1.pdf)
