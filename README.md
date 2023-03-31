@@ -1,5 +1,14 @@
+![Alt Text](cover.png)
+
 ## Important Note
 
+What works:
+
+- The model trains and generates images of desired quality.
+  What doesn't work:
+- Saving checkpoints and loading them for some reason tf doesn't like the way we save the model.
+
+Read our paper to learn more about the project https://github.com/pawelpiwowarski/Fast_GAN_Vrije/paperv1.pdf
 This code is for a paper that we wrote for a Bachelor course at University. This is in no way an efficient nor a good implemention of FastGAN. Please don't train your models on this, save yourself the hassle and use pytorch instead - much easier. Look at the OG version with which you will get the best results - https://github.com/odegeasslbc/FastGAN-pytorch
 
 # Fast GAN Architecture with Additional Decoders in Discriminator
@@ -27,7 +36,3 @@ An example dataset with 752 oil paintings by Vincent Van Gogh is provided.
 ## Training
 
 It takes around 7 hours to train on Google Colab.
-
-## Important!
-
-This code is for a paper that we wrote for a Bachelor course in Uni. This is in no way an efficient an good implemention of FastGAN. Please don't train your models on this, save yourself the hassle and use pytorch instead - much easier. Look at the OG version with which you will get the best results - https://github.com/odegeasslbc/FastGAN-pytorch
