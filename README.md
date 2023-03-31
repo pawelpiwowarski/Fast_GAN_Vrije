@@ -1,4 +1,7 @@
-![Alt Text](cover.png)
+<figure>
+  <img src="cover.png" alt="Images generated after training on the Van Gogh Dataset" width="50%" height="50%">
+  <figcaption>Images generated after training on the Van Gogh Dataset</figcaption>
+</figure>
 
 ## Important Note
 
